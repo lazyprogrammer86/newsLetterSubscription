@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "dae60067-4ca1-4435-be15-d910efab24cc",
+		"name": "botspot API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/API/newsLetter/subscribe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mailID\":\"mail@email.com\",\r\n    \"status\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/API/newsLetter/subscribe",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"API",
+						"newsLetter",
+						"subscribe"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
